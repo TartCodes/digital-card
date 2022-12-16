@@ -1,0 +1,176 @@
+/* reset */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* code */
+
+body {
+  background-color: #23252c;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  width: fit-content;
+}
+
+a:hover,
+a:active {
+  color: #e4b38f;
+}
+
+/* img */
+.img-cont {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  background-color: #23252c;
+}
+
+.img-cont > img {
+  border-radius: 5px;
+}
+
+/* contact */
+
+section {
+  justify-content: center;
+  align-items: center;
+  line-height: 1.75em;
+  padding-top: 40px;
+  border-radius: 5px 5px 0px 0px;
+  width: 86%;
+  margin-inline: auto;
+  gap: 5px;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+}
+
+h3 {
+  color: #e4b38f;
+}
+
+main,
+section {
+  width: 86%;
+  margin-inline: auto;
+  background-color: #1a1b21;
+  display: flex;
+  flex-direction: column;
+}
+
+.email-cont {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.email-link,
+.linkedIn-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  border-radius: 5px;
+  min-width: 110px;
+}
+
+.fa-linkedIn {
+  color: white;
+}
+
+.email-link {
+  background-color: white;
+}
+
+.email-link > a {
+  color: black;
+  font-weight: 600;
+}
+
+.linkedIn-link {
+  background-color: #5093e2;
+  color: white;
+}
+
+.linkedIn-link > a {
+  color: white;
+}
+/* Main */
+
+main {
+  color: white;
+  padding: 20px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+h2 {
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+p {
+  font-size: 0.9rem;
+  padding-top: 5px;
+  line-height: 1.2rem;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  width: 86%;
+  justify-content: center;
+  padding-top: 5px;
+  margin-inline: auto;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  color: white;
+}
