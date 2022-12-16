@@ -91,7 +91,7 @@ h3 {
 
 main,
 section {
-  width: 86%;
+  width: 86vw;
   margin-inline: auto;
   background-color: #1a1b21;
   display: flex;
